@@ -35,3 +35,12 @@ function getCombinations()
     end
     return combinations
 end
+
+local combos = getCombinations()
+
+for i = 1, 5 do
+    for j = 1, 3 do
+        local printStr = ""
+        for k = 1, 3 do
+            local adder = ""
+            printStr = printStr + 
