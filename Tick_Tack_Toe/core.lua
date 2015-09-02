@@ -1,1 +1,1 @@
-function getAllCombinations()
+function getAllCombinations(
